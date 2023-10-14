@@ -1,0 +1,74 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Change the background color */
+}
+
+.color-picker {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px; /* Add margin to the color picker */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff5733; /* Change the button background color */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Reduce border-radius */
+  font-weight: bold; /* Make text bold */
+}
+
+.color-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to the color list */
+}
+
+.color-item {
+  width: 50px;
+  height: 50px;
+  margin: 10px; /* Increase margin */
+  cursor: pointer;
+  border: 2px solid transparent; /* Add border */
+}
+
+.color-item:hover {
+  border: 2px solid #333; /* Change the border color on hover */
+}
+
+p {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px; /* Increase font size */
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Reset button style */
+.reset-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0074d9; /* Change the background color */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Reduce border-radius */
+  font-weight: bold; /* Make text bold */
+}
+
+.reset-button:hover {
+  background-color: #0058a9; /* Change the background color on hover */
+}
